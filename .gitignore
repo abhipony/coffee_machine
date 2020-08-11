@@ -1,0 +1,30 @@
+# Some commonly ignored patterns                                                 
+compile_commands.json                                                            
+*.TMP                                                                            
+*.bak                                                                            
+*.o                                                                              
+*.os                                                                             
+*.so                                                                             
+*.d                                                                              
+*.pipe
+*.pid
+*.a                                                                              
+*.contents                                                                       
+doc/*                                                                            
+./format                                                                         
+*.swp                                                                            
+.gitk-tmp*                                                                       
+*~                                                                               
+*.orig                                                                           
+gitk.cache
+
+# Ignore `binary` dir
+binary/
+logs/
+
+#Everything from here on down should be sorted
+.failed_tests
+lib/LedHandler_test
+lib/utility_test
+src/ble_direct/test/test
+src/lora/test/test
